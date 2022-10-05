@@ -1,0 +1,12 @@
+GENERATE-LOAD-SCRIPTS: ON
+STORAGE: NONE
+RESTRICTION: == net6.0
+NUGET
+  remote: https://www.myget.org/F/edgedb-net/api/v3/index.json
+    EdgeDB.Net.Driver (1.0.0-build-9)
+      Microsoft.Extensions.DependencyInjection.Abstractions (>= 6.0)
+      Microsoft.Extensions.Logging.Abstractions (>= 6.0)
+      Newtonsoft.Json (>= 13.0.1)
+    Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
+    Microsoft.Extensions.Logging.Abstractions (6.0.2)
+    Newtonsoft.Json (13.0.1)

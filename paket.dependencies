@@ -1,0 +1,7 @@
+generate_load_scripts: true
+source https://www.myget.org/F/edgedb-net/api/v3/index.json
+
+storage: none
+framework: net6.0
+
+nuget EdgeDB.Net.Driver  ~> 1.0.0-build-9
